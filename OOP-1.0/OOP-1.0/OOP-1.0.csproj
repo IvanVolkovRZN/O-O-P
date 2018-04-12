@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D449564-959A-401D-B681-6D5078B5E02A}</ProjectGuid>
+    <ProjectGuid>{C469FCE4-146E-49F2-BEBD-8293138AC42C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>O_O_P</RootNamespace>
-    <AssemblyName>O-O-P</AssemblyName>
+    <RootNamespace>OOP_1._0</RootNamespace>
+    <AssemblyName>OOP-1.0</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="children\ChildGame.cs" />
+    <Compile Include="children\Gambling.cs" />
+    <Compile Include="children\WarGame.cs" />
+    <Compile Include="grandchildren\Monopoly.cs" />
+    <Compile Include="grandchildren\Poker.cs" />
+    <Compile Include="grandchildren\Warhammer40K.cs" />
+    <Compile Include="parent\BoardGames.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
