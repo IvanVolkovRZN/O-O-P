@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="children\CharacterTool.cs" />
+    <Compile Include="children\TypeTool.cs" />
     <Compile Include="grandchildren\ElectricTools.cs" />
     <Compile Include="grandchildren\SaskingTools.cs" />
     <Compile Include="parent\Tool.cs" />
