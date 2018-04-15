@@ -42,13 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="children\ChildGame.cs" />
-    <Compile Include="children\Gambling.cs" />
-    <Compile Include="children\WarGame.cs" />
-    <Compile Include="grandchildren\Monopoly.cs" />
-    <Compile Include="grandchildren\Poker.cs" />
-    <Compile Include="grandchildren\Warhammer40K.cs" />
-    <Compile Include="parent\BoardGames.cs" />
+    <Compile Include="children\CharacterTool.cs" />
+    <Compile Include="grandchildren\ElectricTools.cs" />
+    <Compile Include="grandchildren\SaskingTools.cs" />
+    <Compile Include="parent\Tool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

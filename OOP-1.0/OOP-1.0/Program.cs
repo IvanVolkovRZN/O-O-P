@@ -3,30 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OOP_1._0.grandchildren;
 
 namespace OOP_1._0
 {
      class Program
     {
-       static OOP_1._0.grandchildren.Warhammer40K war = new OOP_1._0.grandchildren.Warhammer40K();
-        static OOP_1._0.grandchildren.Monopoly mon = new OOP_1._0.grandchildren.Monopoly();
-        static OOP_1._0.grandchildren.Poker pok = new OOP_1._0.grandchildren.Poker();
+       
 
         public static void Main(string[] args)
         {
 
 
 
-            Object();
+            Start();
 
         }
 
 
-        protected static void Object()
+        protected static void Start()
         {
-            war.Rules();
-            mon.Cards();
-            pok.fishki();
+            SaskingTools tool_1 = new SaskingTools(200, "раскроечный инструмент", "лобзик", 380);
+            Console.WriteLine(tool_1.ut());
+
+            ElectricTools tool_2 = new ElectricTools(220, "электро инструмен", "Шуруповерт", 3720);
+            Console.WriteLine(tool_2.ut());
+
+            
+            Console.ReadLine();
         }
 
 
