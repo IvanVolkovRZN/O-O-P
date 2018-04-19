@@ -6,21 +6,20 @@ using System.Threading.Tasks;
 
 namespace OOP_1._0.children
 {
-    class TypeTool : parent.Tool
+    class ElektricTools : parent.Tool
     {
 
-        protected string Type;
+        protected int Power;
 
-        public TypeTool(string type, string name, int price) : base (name, price)
+        public ElektricTools(int power, string name, int price) : base(name, price)
         {
-            this.Type = type;
+            this.Power = power;
         }
 
 
         public override string ut()
         {
-            return Type + " " + Name + " " + Price;
+            return Power + " " + Name + " " + Price;
         }
-
     }
 }

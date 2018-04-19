@@ -23,10 +23,10 @@ namespace OOP_1._0
 
         protected static void Start()
         {
-            SaskingTools tool_1 = new SaskingTools(200, "раскроечный инструмент", "лобзик", 380);
+            FretSaw tool_1 = new FretSaw(200, "раскроечный инструмент", "лобзик", 380);
             Console.WriteLine(tool_1.ut());
 
-            ElectricTools tool_2 = new ElectricTools(220, "электро инструмен", "Шуруповерт", 3720);
+            HammerDrill tool_2 = new HammerDrill("AEG", 230, "Перфоратор", 7720);
             Console.WriteLine(tool_2.ut());
 
             
