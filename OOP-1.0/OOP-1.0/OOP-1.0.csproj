@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="children\ElektricTools.cs" />
     <Compile Include="children\SaskingTools.cs" />
+    <Compile Include="grandchildren\Chisel.cs" />
+    <Compile Include="grandchildren\BuildingDryer.cs" />
     <Compile Include="grandchildren\HammerDrill.cs" />
     <Compile Include="grandchildren\FretSaw.cs" />
     <Compile Include="parent\Tool.cs" />

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP_1._0.parent
 {
-   abstract class Tool
+    abstract class Tool : IComparable
     {
 
         protected string Name;
-        protected int Price;
+        public int Price;
 
         protected Tool(string name, int price)
         {
@@ -18,13 +18,22 @@ namespace OOP_1._0.parent
             Price = price;
         }
 
-        public virtual void Rules(string name, int price)
+        public int CompareTo(object obj)
         {
-            this.Name = name;
-            this.Price = price;
+                var tool = (Tool)obj;
+                return Price - tool.Price;
         }
 
-        public abstract string ut();
+        public abstract string Info();
+
+
+
+        public void PrintInfo()
+        { 
+            Console.WriteLine(Info());
+        }
+
+
 
 
     }

@@ -17,7 +17,7 @@ namespace OOP_1._0.children
         }
 
 
-        public override string ut()
+        public override string Info()
         {
             return Power + " " + Name + " " + Price;
         }

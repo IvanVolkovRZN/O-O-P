@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOP_1._0.grandchildren
 {
-    class FretSaw : children.SaskingTools
+    class Chisel : children.SaskingTools
     {
 
         protected int CuttingSurfaceSize;
 
-    public FretSaw(int cuttingSurfaceSize, string type, string name, int price) : base(type, name, price)
+    public Chisel(int cuttingSurfaceSize, string type, string name, int price) : base(type, name, price)
     {
         this.CuttingSurfaceSize = cuttingSurfaceSize;
     }

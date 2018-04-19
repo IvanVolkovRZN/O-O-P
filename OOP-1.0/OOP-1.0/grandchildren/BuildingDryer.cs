@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOP_1._0.grandchildren
 {
-    class HammerDrill : children.ElektricTools
+    class BuildingDryer : children.ElektricTools
     {
 
         protected string Brand;
 
-        public HammerDrill(string brand, int power, string name, int price) : base(power, name, price)
+        public BuildingDryer(string brand, int power, string name, int price) : base(power, name, price)
         {
             this.Brand = brand;
         }
